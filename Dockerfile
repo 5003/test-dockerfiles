@@ -6,3 +6,4 @@ RUN apk add --no-cache coreutils \
                        jq
 ENV CONF_DEST /etc/nginx/conf.d/test.conf
 ADD https://github.com/5003/test-scripts/raw/master/automatic-proxy-generate.sh /usr/local/bin/test.sh
+WORKDIR /usr/local/bin/
