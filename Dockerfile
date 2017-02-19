@@ -4,3 +4,4 @@ RUN apk add --no-cache coreutils \
                        openssl \
                        certbot \
                        jq
+ADD https://github.com/5003/test-scripts/raw/master/automatic-proxy-generate.sh /usr/local/bin/test.sh
