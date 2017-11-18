@@ -5,5 +5,6 @@ RUN apk add --no-cache curl-dev && \
             -e 'install.packages(c("TTR", \
                                    "data.table", \
                                    "dplyr", \
+                                   "lubridate", \
                                    "quantmod", \
                                    "jsonlite"))'
